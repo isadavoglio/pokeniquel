@@ -15,7 +15,12 @@ body {
     border-top-right-radius: 100%;
     border-bottom-right-radius: 100%;
 }
-
+.center-div{
+    width: 30vw;
+}
+.pokemon-logo{
+    width: 100%;
+}
 .rightside-circle {
     background-color: #5b120c;
     height: 100vh;
