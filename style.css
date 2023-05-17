@@ -1,5 +1,26 @@
 body {
     background-color: #132231;
-    height:100vh;
-    width:100vw;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+
+}
+
+.leftside-circle {
+    background-color: #5b120c;
+    height: 100vh;
+    width: 25vw;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.rightside-circle {
+    background-color: #5b120c;
+    height: 100vh;
+    width: 25vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+
 }
