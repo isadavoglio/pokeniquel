@@ -17,9 +17,14 @@ body {
 }
 .center-div{
     width: 30vw;
+    display:flex;
+    flex-direction: column;
 }
 .pokemon-logo{
     width: 100%;
+}
+.menu{
+    
 }
 .rightside-circle {
     background-color: #5b120c;
