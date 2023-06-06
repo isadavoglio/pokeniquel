@@ -54,7 +54,6 @@ body {
 .menu-option:hover{
     background-color: aliceblue;
     color: black;
-    transition-delay: 0.5s;
 }
 
 .rightside-circle {
