@@ -15,17 +15,48 @@ body {
     border-top-right-radius: 100%;
     border-bottom-right-radius: 100%;
 }
-.center-div{
+
+.center-div {
     width: 30vw;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
-.pokemon-logo{
+
+.pokemon-logo {
     width: 100%;
 }
-.menu{
-    
+
+.menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+
 }
+
+.menu-option {
+
+    border-radius: 10px;
+    font-size: 2rem;
+    width: 26%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+
+
+}
+.menu-option:hover{
+    background-color: aliceblue;
+    color: black;
+    transition-delay: 0.5s;
+}
+
 .rightside-circle {
     background-color: #5b120c;
     height: 100vh;
